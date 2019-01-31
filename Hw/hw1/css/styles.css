@@ -1,0 +1,21 @@
+#Homepic{
+    float: left;
+}
+footer {
+    clear: left;
+    font-size: .8em;
+    color: white;
+}
+header, nav, footer{
+    text-align: center;
+}
+main{
+    text-align: left;
+}
+nav a{ /*links within nav container */
+    padding:15px;
+    padding-bottom: 4px;
+    font-size: 1.8em;
+    text-decoration: none; /* removes underline */
+    color: white; /*by default, links are blue */
+}
