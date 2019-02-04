@@ -1,5 +1,13 @@
-#Homepic{
-    float: left;
+p, details{
+    text-align: center;
+}
+hr{
+    width: 60%;
+    background-color: white;
+    height: 2px;
+}
+body{
+    background-color: #8B0000 !important;
 }
 footer {
     clear: left;
@@ -9,13 +17,32 @@ footer {
 header, nav, footer{
     text-align: center;
 }
-main{
-    text-align: left;
-}
-nav a{ /*links within nav container */
+nav a{ 
     padding:15px;
     padding-bottom: 4px;
-    font-size: 1.8em;
-    text-decoration: none; /* removes underline */
-    color: white; /*by default, links are blue */
+    font-size: 1.6em;
+    text-decoration: none; 
+    color: white; 
+}
+ul{
+    list-style-position: inside;
+}
+ul, .wrapper1{
+    text-align: center;
+}
+ul, .wrapper2{
+    display:inline-block;
+    text-align: left;
+}
+.links{
+    color: white;
+}
+.Homepics{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#hello{
+    text-align: center;
+    font-size: 1.5em;
 }
