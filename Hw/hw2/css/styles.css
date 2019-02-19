@@ -14,7 +14,7 @@ body{
 
 .question {
     box-sizing: border-box;
-    width: 900px;
+    width: auto;
     height:125px;
     text-align: center;
     border: 5px solid gray;
