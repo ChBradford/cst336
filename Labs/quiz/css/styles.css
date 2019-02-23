@@ -3,7 +3,17 @@ body{
     background-color: cyan;
 }
 
-.submit {
-    background-color: blue;
-    color: white;
+.correct {
+    color: green;
+    font-size: 18pt;
+}
+
+.onehundred {
+    color: green;
+    font-size: 30pt;
+}
+
+.incorrect {
+    color: red;
+    font-size: 18pt;
 }
