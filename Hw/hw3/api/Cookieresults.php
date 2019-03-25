@@ -15,7 +15,7 @@
     ,"You digitally ate my home!"
     ,"Avoid unneccesary gambles."
     ,"We know."
-    ,"When you squeeze an orage, orange juice will come out. Why? It's an orange..."
+    ,"When you squeeze an orange, orange juice will come out. Why? It's an orange..."
     ,"That wasn't a cookie."
     ,"So if this isn't really a cookie, is this just a fortune telling service?"
     ,"You're about to finish reading a fortune cookie."
