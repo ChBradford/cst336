@@ -2,11 +2,11 @@
     
     $fortunes = array("Meet your partner halfway."
     ,"Run."
-    ,"No snowflake in an avalanch will ever feel responsible."
+    ,"No snowflake in an avalanche will ever feel responsible."
     ,"Thanks for letting me out."
     ,"You'll be fine... maybe"
     ,"I'm just a cookie, what'd you expect?."
-    ,"Help! I'm stuck in a chinese bakery!"
+    ,"Help! I'm stuck in a Chinese bakery!"
     ,"Ask not what the cookie can do for you. Rather, ask what you can do for the cookie."
     ,"Hey! You can read~"
     ,"Ya know, these cookies should always be free..."
