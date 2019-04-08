@@ -12,8 +12,7 @@
         
     <script>
         /*global $*/
-      
-
+        var guesses = 6;
         function getWord(){
             
             //Ajax call to get the word_id and its length from the database 
@@ -55,7 +54,7 @@
                          "word_Id":$("#wordId"),
                         },
                     success: function(data,status) {
-    
+                        
                          
                       },
                       complete: function(data,status) { //optional, used for debugging purposes
