@@ -1,0 +1,15 @@
+[13-Apr-2019 23:02:32 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ottermart.om_admin' doesn't exist' in /home/ubuntu/workspace/cst336/Labs/lab7/loginProcess.php:21
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Labs/lab7/loginProcess.php(21): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/Labs/lab7/loginProcess.php on line 21
+[13-Apr-2019 23:03:13 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected' in /home/ubuntu/workspace/cst336/Labs/lab7/loginProcess.php:21
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Labs/lab7/loginProcess.php(21): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/Labs/lab7/loginProcess.php on line 21
+[13-Apr-2019 23:04:08 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected' in /home/ubuntu/workspace/cst336/Labs/lab7/loginProcess.php:21
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Labs/lab7/loginProcess.php(21): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/Labs/lab7/loginProcess.php on line 21
