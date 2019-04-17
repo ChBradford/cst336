@@ -1,8 +1,9 @@
 <?php
-$host = "localhost";
+/*$host = "localhost";
 $dbname = "ottermart";
 $username = "root";
-$password = "";
+$password = "";*/
+include '../../../inc/dbConnection.php';
 //establish connection
 $dbConn = newPDO("mysql:host=$host;dbname=$dbname", $username, $password);
 //setting Errorhandling to exception
