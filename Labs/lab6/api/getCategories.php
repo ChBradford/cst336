@@ -1,5 +1,5 @@
 <?php
-    include '../dbConnection.php';
+    include '../../lab7/dbConnection.php';
     $conn = getDatabaseConnection("ottermart");
     
     $sql = "SELECT catId, catName FROM om_category ORDER BY catName";
