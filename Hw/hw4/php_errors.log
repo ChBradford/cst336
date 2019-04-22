@@ -1,0 +1,20 @@
+[22-Apr-2019 01:27:52 UTC] PHP Warning:  json_encode() expects at least 1 parameter, 0 given in /home/ubuntu/workspace/cst336/Hw/hw4/api/MapsProxy.php on line 31
+[22-Apr-2019 01:27:52 UTC] PHP Stack trace:
+[22-Apr-2019 01:27:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/Hw/hw4/api/MapsProxy.php:0
+[22-Apr-2019 01:27:52 UTC] PHP   2. json_encode() /home/ubuntu/workspace/cst336/Hw/hw4/api/MapsProxy.php:31
+[22-Apr-2019 01:27:58 UTC] PHP Warning:  json_encode() expects at least 1 parameter, 0 given in /home/ubuntu/workspace/cst336/Hw/hw4/api/MapsProxy.php on line 31
+[22-Apr-2019 01:27:58 UTC] PHP Stack trace:
+[22-Apr-2019 01:27:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/Hw/hw4/api/MapsProxy.php:0
+[22-Apr-2019 01:27:58 UTC] PHP   2. json_encode() /home/ubuntu/workspace/cst336/Hw/hw4/api/MapsProxy.php:31
+[22-Apr-2019 01:28:26 UTC] PHP Warning:  json_encode() expects at least 1 parameter, 0 given in /home/ubuntu/workspace/cst336/Hw/hw4/api/MapsProxy.php on line 31
+[22-Apr-2019 01:28:26 UTC] PHP Stack trace:
+[22-Apr-2019 01:28:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/Hw/hw4/api/MapsProxy.php:0
+[22-Apr-2019 01:28:26 UTC] PHP   2. json_encode() /home/ubuntu/workspace/cst336/Hw/hw4/api/MapsProxy.php:31
+[22-Apr-2019 01:28:31 UTC] PHP Warning:  json_encode() expects at least 1 parameter, 0 given in /home/ubuntu/workspace/cst336/Hw/hw4/api/MapsProxy.php on line 31
+[22-Apr-2019 01:28:31 UTC] PHP Stack trace:
+[22-Apr-2019 01:28:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/Hw/hw4/api/MapsProxy.php:0
+[22-Apr-2019 01:28:31 UTC] PHP   2. json_encode() /home/ubuntu/workspace/cst336/Hw/hw4/api/MapsProxy.php:31
+[22-Apr-2019 02:04:37 UTC] PHP Warning:  json_encode() expects at least 1 parameter, 0 given in /home/ubuntu/workspace/cst336/Hw/hw4/api/MapsProxy.php on line 31
+[22-Apr-2019 02:04:37 UTC] PHP Stack trace:
+[22-Apr-2019 02:04:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/Hw/hw4/api/MapsProxy.php:0
+[22-Apr-2019 02:04:37 UTC] PHP   2. json_encode() /home/ubuntu/workspace/cst336/Hw/hw4/api/MapsProxy.php:31

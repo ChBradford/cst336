@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Weather </title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<style>
+body {
+text-align: center;
+font-size: 1.2em;
+background-color: #e5920b !important;
+}
+
+</style>
+<script>
+    function weather() {
+        
+        $.ajax({
+             method: "GET",
+                url: "api/mapsProxy.php",
+            dataType: "json",
+                data: { "lat":$("#lat").val(),
+                        "long":$("#long").val()},
+             success: function(data, status) {
+               
+                $("#timezone").html("Timezone at these coordinates: " + data.timezone);
+                
+                $("#Aweather").html("This week's forcast at these coordinates: " + data.daily.summary);
+                $("#Tweather").html("Today's forcast at these coordinates: " + data.hourly.summary);
+                
+                $("#img").html("<img src = img/" + data.daily.icon + ".jpg alt = 'pic' />")
+                
+               
+               $("#images").append(htmlString);
+               
+            }
+        }); //ajax 
+        
+    }//searchImage()
+    
+    
+
+</script>
+</head>
+<body>
+
+<h1> Weather </h1>
+Please enter the longitude and latitude! <br><br>
+longitude: <input type="text" id="long" size = "5"/> <br><br>
+latitude: <input type="text" id="lat" size = "5"/><br><br>
+<button onclick="weather()"> Search </button> <br>
+<br /><br />
+
+<div id="data">
+    <p id = "timezone"></p> <br> 
+    <p id = "Aweather">  </p> <br>
+    <p id = "Tweather"></p> <br>
+    <div id = "img"/>
+</div>
+
+</body>
+</html>
