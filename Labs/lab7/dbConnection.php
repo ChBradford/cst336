@@ -2,9 +2,9 @@
 
     function getDatabaseConnection($ottermart) {
     
-        //$host = "localhost";
-        //$username = "root";
-        //$password = "";
+        $host = "localhost";
+        $username = "root";
+        $password = "";
         
         //checks whether the URL contains "herokuapp" (using Heroku)
         if(strpos($_SERVER['HTTP_HOST'], 'herokuapp') !== false) {

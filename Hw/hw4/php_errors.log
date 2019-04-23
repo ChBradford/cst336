@@ -713,3 +713,78 @@ Stack trace:
 #0 /home/ubuntu/workspace/cst336/Hw/hw4/api/saveData.php(21): PDOStatement->fetch(2)
 #1 {main}
   thrown in /home/ubuntu/workspace/cst336/Hw/hw4/api/saveData.php on line 21
+[23-Apr-2019 00:29:16 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)' in /home/ubuntu/workspace/cst336/Hw/hw4/dbConnection.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Hw/hw4/dbConnection.php(18): PDO->__construct('mysql:host=;dbn...', NULL, NULL)
+#1 /home/ubuntu/workspace/cst336/Hw/hw4/api/saveData.php(4): getDatabaseConnection('mapsData')
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/Hw/hw4/dbConnection.php on line 18
+[23-Apr-2019 00:29:20 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)' in /home/ubuntu/workspace/cst336/Hw/hw4/dbConnection.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Hw/hw4/dbConnection.php(18): PDO->__construct('mysql:host=;dbn...', NULL, NULL)
+#1 /home/ubuntu/workspace/cst336/Hw/hw4/api/getData.php(3): getDatabaseConnection('mapsData')
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/Hw/hw4/dbConnection.php on line 18
+[23-Apr-2019 00:29:20 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)' in /home/ubuntu/workspace/cst336/Hw/hw4/dbConnection.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Hw/hw4/dbConnection.php(18): PDO->__construct('mysql:host=;dbn...', NULL, NULL)
+#1 /home/ubuntu/workspace/cst336/Hw/hw4/api/saveData.php(4): getDatabaseConnection('mapsData')
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/Hw/hw4/dbConnection.php on line 18
+[23-Apr-2019 00:29:23 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)' in /home/ubuntu/workspace/cst336/Hw/hw4/dbConnection.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Hw/hw4/dbConnection.php(18): PDO->__construct('mysql:host=;dbn...', NULL, NULL)
+#1 /home/ubuntu/workspace/cst336/Hw/hw4/api/getData.php(3): getDatabaseConnection('mapsData')
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/Hw/hw4/dbConnection.php on line 18
+[23-Apr-2019 00:29:24 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)' in /home/ubuntu/workspace/cst336/Hw/hw4/dbConnection.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Hw/hw4/dbConnection.php(18): PDO->__construct('mysql:host=;dbn...', NULL, NULL)
+#1 /home/ubuntu/workspace/cst336/Hw/hw4/api/saveData.php(4): getDatabaseConnection('mapsData')
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/Hw/hw4/dbConnection.php on line 18
+[23-Apr-2019 00:29:27 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)' in /home/ubuntu/workspace/cst336/Hw/hw4/dbConnection.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Hw/hw4/dbConnection.php(18): PDO->__construct('mysql:host=;dbn...', NULL, NULL)
+#1 /home/ubuntu/workspace/cst336/Hw/hw4/api/getData.php(3): getDatabaseConnection('mapsData')
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/Hw/hw4/dbConnection.php on line 18
+[23-Apr-2019 00:29:27 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)' in /home/ubuntu/workspace/cst336/Hw/hw4/dbConnection.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Hw/hw4/dbConnection.php(18): PDO->__construct('mysql:host=;dbn...', NULL, NULL)
+#1 /home/ubuntu/workspace/cst336/Hw/hw4/api/saveData.php(4): getDatabaseConnection('mapsData')
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/Hw/hw4/dbConnection.php on line 18
+[23-Apr-2019 00:31:31 UTC] PHP Fatal error:  Cannot redeclare getDatabaseConnection() (previously declared in /home/ubuntu/workspace/cst336/Hw/hw4/dbConnection.php:3) in /home/ubuntu/workspace/cst336/Hw/hw4/dbConnection.php on line 31
+[23-Apr-2019 00:31:31 UTC] PHP Stack trace:
+[23-Apr-2019 00:31:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/Hw/hw4/api/saveData.php:0
+[23-Apr-2019 00:31:31 UTC] PHP Fatal error:  Cannot redeclare getDatabaseConnection() (previously declared in /home/ubuntu/workspace/cst336/Hw/hw4/dbConnection.php:3) in /home/ubuntu/workspace/cst336/Hw/hw4/dbConnection.php on line 31
+[23-Apr-2019 00:31:31 UTC] PHP Stack trace:
+[23-Apr-2019 00:31:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/Hw/hw4/api/getData.php:0
+[23-Apr-2019 00:31:31 UTC] PHP Fatal error:  Cannot redeclare getDatabaseConnection() (previously declared in /home/ubuntu/workspace/cst336/Hw/hw4/dbConnection.php:3) in /home/ubuntu/workspace/cst336/Hw/hw4/dbConnection.php on line 31
+[23-Apr-2019 00:31:31 UTC] PHP Stack trace:
+[23-Apr-2019 00:31:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/Hw/hw4/api/saveData.php:0
+[23-Apr-2019 00:31:32 UTC] PHP Fatal error:  Cannot redeclare getDatabaseConnection() (previously declared in /home/ubuntu/workspace/cst336/Hw/hw4/dbConnection.php:3) in /home/ubuntu/workspace/cst336/Hw/hw4/dbConnection.php on line 31
+[23-Apr-2019 00:31:32 UTC] PHP Stack trace:
+[23-Apr-2019 00:31:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/Hw/hw4/api/getData.php:0
+[23-Apr-2019 00:31:32 UTC] PHP Fatal error:  Cannot redeclare getDatabaseConnection() (previously declared in /home/ubuntu/workspace/cst336/Hw/hw4/dbConnection.php:3) in /home/ubuntu/workspace/cst336/Hw/hw4/dbConnection.php on line 31
+[23-Apr-2019 00:31:32 UTC] PHP Stack trace:
+[23-Apr-2019 00:31:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/Hw/hw4/api/saveData.php:0
+[23-Apr-2019 00:34:44 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)' in /home/ubuntu/workspace/cst336/Hw/hw4/dbConnection.php:17
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Hw/hw4/dbConnection.php(17): PDO->__construct('mysql:host=;dbn...', NULL, NULL)
+#1 /home/ubuntu/workspace/cst336/Hw/hw4/api/saveData.php(4): getDatabaseConnection('mapsData')
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/Hw/hw4/dbConnection.php on line 17
+[23-Apr-2019 00:34:52 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)' in /home/ubuntu/workspace/cst336/Hw/hw4/dbConnection.php:17
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Hw/hw4/dbConnection.php(17): PDO->__construct('mysql:host=;dbn...', NULL, NULL)
+#1 /home/ubuntu/workspace/cst336/Hw/hw4/api/getData.php(3): getDatabaseConnection('mapsData')
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/Hw/hw4/dbConnection.php on line 17
+[23-Apr-2019 00:34:52 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)' in /home/ubuntu/workspace/cst336/Hw/hw4/dbConnection.php:17
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Hw/hw4/dbConnection.php(17): PDO->__construct('mysql:host=;dbn...', NULL, NULL)
+#1 /home/ubuntu/workspace/cst336/Hw/hw4/api/saveData.php(4): getDatabaseConnection('mapsData')
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/Hw/hw4/dbConnection.php on line 17

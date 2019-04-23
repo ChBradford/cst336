@@ -1,5 +1,4 @@
 <?php
-
     function getDatabaseConnection($mapsData) {
     
         //$host = "localhost";
