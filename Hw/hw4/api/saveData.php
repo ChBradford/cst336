@@ -1,17 +1,17 @@
 <?php
 
 include '../dbConnection.php';
-    $conn = getDatabaseConnection("poll");
+    $conn = getDatabaseConnection("mapsData");
     
     $arr = array();
     
-    $arr[":option1"] = $_GET["var1"];
-    $arr[":option2"] = $_GET["var2"];
-    $arr[":option3"] = $_GET["var3"];
-    $arr[":option4"] = $_GET["var4"];
+    $arr[":longitude"] = $_GET["long"];
+    $arr[":latitude"] = $_GET["lat"];
+    $arr[":weather"] = $_GET["icon"];
+    
   
-   $sql = "INSERT INTO poll_response ( `option1`, `option2`, `option3`, `option4`) 
-    VALUES (:option1, :option2, :option3, :option4)";
+   $sql = "INSERT INTO data ( `longitude`, `latitude`, `weather`) 
+    VALUES (:longitude, :latitude, :weather)";
    
     $stmt = $conn->prepare($sql);
     $stmt->execute($arr);
