@@ -1,6 +1,6 @@
 <?php
 
-
+//"https://api.darksky.net/forecast/e09f12ef88e89732b0624d3ea607867b/$long,$lat"
 
 $apikey = getenv('API_KEY');
 
