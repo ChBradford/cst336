@@ -43,13 +43,13 @@
                     dataType: "json",
                     //data : {},
                 success: function(data,status){
-                    $("#pdata").append("<p class = 'locs'>" + (t-1) + ". At " + data.longitude + "," + data.latitude + " the forcast was " + data.weather + "<p>");
+                    $("#pdata").append("<p class = 'locs'>" + (t-1) + ". At " + data.longitude + ", " + data.latitude + " the forcast was " + data.weather + "<p>");
                     $("#pe").hide();
                 }
                 });
                 }
                 else{
-                    $("#pe").html("submit one more time to see previous data");
+                    $("#pe").html("submit one more time to start seeing previous data.");
                 }
                 t++;
     }//searchImage()
