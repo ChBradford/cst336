@@ -1,12 +1,12 @@
 <?php
 
-//https://pixabay.com/api/?key=5589438-47a0bca778bf23fc2e8c5bf3e&image_type=photo&orientation=horizontal&safesearch=true&per_page=100
+//https://pixabay.com/api/?key=12286353-b567afb22d47d107af3ff8045&image_type=photo&orientation=horizontal&safesearch=true&per_page=100
 
 $keyword = $_GET['keyword'];
 
 $curl = curl_init();
       curl_setopt_array($curl, array(
-      CURLOPT_URL => "https://pixabay.com/api/?key=5589438-47a0bca778bf23fc2e8c5bf3e&q=$keyword&image_type=photo&orientation=horizontal&safesearch=true&per_page=50",
+      CURLOPT_URL => "https://pixabay.com/api/?key=12286353-b567afb22d47d107af3ff8045&q=$keyword&image_type=photo&orientation=horizontal&safesearch=true&per_page=50",
       CURLOPT_RETURNTRANSFER => true,
       CURLOPT_TIMEOUT => 30,
       CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,

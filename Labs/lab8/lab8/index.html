@@ -3,20 +3,9 @@
 <head>
 <title> Pixabay API Demo </title>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<style>
-body {
-text-align: center;
-}
-img {
-    border-radius: 20px;
-    padding:15px;
-}
-.favorite{
-    cursor: pointer;
-}
-</style>
+<link href = "css/styles.css" rel="stylesheet" type = "text/css"/>
 <script>
-
+    /*global $*/
     function searchImage() {
     
         $("#images").html("Loading...");
@@ -64,22 +53,29 @@ img {
             
                 $(this).attr("src","img/favorite_on.png");
                 //add image url to database
-                callFavoriteAPI("add",$(this).next().attr("src"));
+                updateFavorites("add",$(this).next().attr("src"));
             } else {
                 
                 $(this).attr("src","img/favorite.png");
                 //remove image url from database
-                callFavoriteAPI("delete",$(this).next().attr("src"));
+                updateFavorites("delete",$(this).next().attr("src"));
                 
             }
             
         });
     
-        
-        function callFavoriteAPI(action, url, keyword) {
-            
-            
-        }
+        function updateFavorites(action,favorite) {
+                $.ajax({
+                    type: "get",
+                    url: "api/favoritesAPI.php",
+                    dataType: "json",
+                    data: {
+                      "action": action,
+                      "favorite": favorite,
+                      "keyword": $("#keyword").val()
+                    },
+                  });//ajax
+            }
     
         
     });//documentReady
@@ -88,13 +84,19 @@ img {
 </script>
 </head>
 <body>
-
-<h1> Pixabay Image Search </h1>
-Keyword: <input type="text" id="keyword"/> 
-<button onclick="searchImage()"> Search </button>
-<br /><br />
-
-<div id="images"></div>
+    <br>
+        <h1> Pixabay Image Search </h1>    
+    <br><br>
+    
+    Keyword: <input type="text" id="keyword"/> 
+    <button onclick="searchImage()"> Search </button>
+    <br /><br />
+    <div>
+        <div id="images"></div>    
+    </div>
+    <form action="viewFavorites.php">
+        <button> View Favorites </button>
+    </form>
 
 </body>
 </html>

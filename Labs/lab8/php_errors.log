@@ -1,4 +1,0 @@
-[17-Apr-2019 00:16:39 UTC] PHP Warning:  shuffle() expects parameter 1 to be array, null given in /home/ubuntu/workspace/cst336/labs/lab8/api/pixabayProxy.php on line 37
-[17-Apr-2019 00:16:39 UTC] PHP Stack trace:
-[17-Apr-2019 00:16:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab8/api/pixabayProxy.php:0
-[17-Apr-2019 00:16:39 UTC] PHP   2. shuffle() /home/ubuntu/workspace/cst336/labs/lab8/api/pixabayProxy.php:37
